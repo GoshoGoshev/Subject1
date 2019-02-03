@@ -21,8 +21,6 @@ namespace ConsoleApplication1
                 n = n+1;
             }
             Console.WriteLine(S);
-
-
         }
     }
 }
