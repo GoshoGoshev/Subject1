@@ -14,7 +14,7 @@ namespace ConsoleApplication1
             int n=0;
             double Step;
             while (a != 0)
-            {
+            { 
                 
                 Step=Math.Pow(2,n);
                 S = S + a % 10 * Step;
@@ -22,8 +22,6 @@ namespace ConsoleApplication1
                 n = n+1;
             }
             Console.WriteLine(S);
-
-
         }
     }
 }
