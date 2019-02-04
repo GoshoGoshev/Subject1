@@ -15,6 +15,7 @@ namespace ConsoleApplication1
             double Step;
             while (a != 0)
             { 
+                
                 Step=Math.Pow(2,n);
                 S = S + a % 10 * Step;
                 a = a / 10;
